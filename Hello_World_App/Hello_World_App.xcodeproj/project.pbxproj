@@ -21,6 +21,7 @@
 		1D4D8EBC17F3A47D002877DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4D8E9E17F3A47D002877DB /* UIKit.framework */; };
 		1D4D8EC417F3A47D002877DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D4D8EC217F3A47D002877DB /* InfoPlist.strings */; };
 		1D4D8EC617F3A47D002877DB /* Hello_World_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D8EC517F3A47D002877DB /* Hello_World_AppTests.m */; };
+		1DAFC55D17F3B01900641FD1 /* earth.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1DAFC55C17F3B01900641FD1 /* earth.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1D4D8EC117F3A47D002877DB /* Hello_World_AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello_World_AppTests-Info.plist"; sourceTree = "<group>"; };
 		1D4D8EC317F3A47D002877DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D4D8EC517F3A47D002877DB /* Hello_World_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_World_AppTests.m; sourceTree = "<group>"; };
+		1DAFC55C17F3B01900641FD1 /* earth.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = earth.jpeg; path = ../../../../../Desktop/earth.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		1D4D8EA017F3A47D002877DB /* Hello_World_App */ = {
 			isa = PBXGroup;
 			children = (
+				1DAFC55C17F3B01900641FD1 /* earth.jpeg */,
 				1D4D8EA917F3A47D002877DB /* CJLAppDelegate.h */,
 				1D4D8EAA17F3A47D002877DB /* CJLAppDelegate.m */,
 				1D4D8EAC17F3A47D002877DB /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				1D4D8EB317F3A47D002877DB /* Images.xcassets in Resources */,
 				1D4D8EA517F3A47D002877DB /* InfoPlist.strings in Resources */,
+				1DAFC55D17F3B01900641FD1 /* earth.jpeg in Resources */,
 				1D4D8EAE17F3A47D002877DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +465,7 @@
 				1D4D8ECB17F3A47D002877DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D4D8ECC17F3A47D002877DB /* Build configuration list for PBXNativeTarget "Hello_World_AppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				1D4D8ECE17F3A47D002877DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
